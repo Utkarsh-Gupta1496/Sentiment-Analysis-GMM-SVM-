@@ -36,7 +36,7 @@ Progress of **Expectation Maximization(EM) Algorithm**can be observed by observi
 ![](/images/output2.PNG)
 
 **Classification Accuracy**
-![](/images/output3.PNG)
+![](/images/output3.png)
 # Supervised Sentiment Analysis using SVM:
 
 Library Used for Implementing : LIBSVM
