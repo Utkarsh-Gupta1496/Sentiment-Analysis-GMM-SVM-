@@ -10,7 +10,7 @@ import nltk
 from sklearn.cluster import KMeans
 from scipy.stats import multivariate_normal
 
-f=open('/home/utkarsh/Desktop/MLSp/movieReviews1000.txt',"r")
+f=open('./data/movieReviews1000.txt',"r")
 #contents is a list with each elements as a line of the text
 text=f.readlines()
 
