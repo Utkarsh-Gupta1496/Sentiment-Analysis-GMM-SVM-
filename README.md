@@ -41,6 +41,9 @@ Progress of **Expectation Maximization(EM) Algorithm**can be observed by observi
 
 Library Used for Implementing : LIBSVM
 
+**Classification Accuracy**
+![](/images/output4.png)
+
 
 
 
