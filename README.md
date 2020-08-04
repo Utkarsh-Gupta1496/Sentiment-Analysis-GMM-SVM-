@@ -12,13 +12,32 @@
 
 # Unsupervised Sentiment Analysis using GMM
 
-**Implementation:** GMM
+**Implementation:** Implemented GMM using EM from Scratch in Numpy.
+
 **Training:**\
 Gaussian Mixture Model is an unsupervised clustering technique and does not require label information. Here we train a **Two Mixture Diagonal Covariance GMM** on this data.
-Progress of **Expectation Maximization(EM) Algorithm**can be observed by observing plot of log-liklihood vs iteration.
+Progress of **Expectation Maximization(EM) Algorithm**can be observed by observing plot of log-liklihood vs iteration.\
+
 **Testing:**\
 1. For Testing we take a particular review(Say labled 1 review)
 2. We find the liklihood(posterior probablity) of the test point using parameter of each gaussian fitted(one gaussian is fitted for label 1 review and other fitted for label 0 reviews)
 3. Then on comparing the two obtained liklihood we assign the test point to the class(label1 or label 0) whose liklihood is greator.
 4. Classification Accuracy = [(Number of Reviews Correctly Classified)/(Total Number of Reviews)]*100
+
+**Sample Output(GMM)** :
+
+**EM Iteration = 1**
+![](/images/output.png)
+
+**EM Iteration = 16 (Center of each cluster shifts when compared to iteration inorder to maximize log liklihood)**
+![](/images/output1.PNG)
+
+**Log Liklihood vs Iteration**
+![](/images/output2.PNG)
+
+# Supervised Sentiment Analysis using SVM:
+
+Library Used for Implementing : LIBSVM
+
+
 
