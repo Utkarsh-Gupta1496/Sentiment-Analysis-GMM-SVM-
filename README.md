@@ -8,7 +8,7 @@
 **Features :** 
 1. We extract TF-IDF feature for each Review
 2. Reduce the TF-IDF feature dimmension to 10 using PCA
-3. Split Reviews for Training (3000 Reviews) and Testing (1000 Reviews)
+3. Split Reviews for Training (700 Reviews) and Testing (300 Reviews)
 
 # Unsupervised Sentiment Analysis using GMM
 
@@ -35,9 +35,13 @@ Progress of **Expectation Maximization(EM) Algorithm**can be observed by observi
 **Log Liklihood vs Iteration**
 ![](/images/output2.PNG)
 
+**Classification Accuracy**
+![](/images/output3.PNG)
 # Supervised Sentiment Analysis using SVM:
 
 Library Used for Implementing : LIBSVM
+
+
 
 
 
