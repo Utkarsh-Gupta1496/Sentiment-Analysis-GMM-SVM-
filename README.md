@@ -16,9 +16,9 @@
 
 **Training:**\
 Gaussian Mixture Model is an unsupervised clustering technique and does not require label information. Here we train a **Two Mixture Diagonal Covariance GMM** on this data.
-Progress of **Expectation Maximization(EM) Algorithm**can be observed by observing plot of log-liklihood vs iteration.\
+Progress of **Expectation Maximization(EM) Algorithm**can be observed by observing plot of log-liklihood vs iteration.
 
-**Testing:**\
+**Testing:**
 1. For Testing we take a particular review(Say labled 1 review)
 2. We find the liklihood(posterior probablity) of the test point using parameter of each gaussian fitted(one gaussian is fitted for label 1 review and other fitted for label 0 reviews)
 3. Then on comparing the two obtained liklihood we assign the test point to the class(label1 or label 0) whose liklihood is greator.
