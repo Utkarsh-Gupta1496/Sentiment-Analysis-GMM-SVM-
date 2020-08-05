@@ -32,7 +32,7 @@ Progress of **Expectation Maximization(EM) Algorithm**can be observed by observi
 **EM Iteration = 16 (Center of each cluster shifts when compared to iteration 1 inorder to maximize log liklihood)**
 ![](/images/output1.PNG)
 
-**Log Liklihood vs Iteration**
+**EM Algorithm Progress - Log Liklihood vs Iteration**
 ![](/images/output2.PNG)
 
 **Classification Accuracy**
